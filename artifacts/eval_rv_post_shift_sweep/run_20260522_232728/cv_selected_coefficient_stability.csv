@@ -1,0 +1,12 @@
+stock,family,feature_family,n,coef_mean,coef_sd,min_coef,max_coef,sign_consistent
+rd,"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",log_r,2,0.010673170905363549,0.006405301780458751,0.0061439385808549,0.0152024032298722,True
+rd,"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",log_r_ewma21,2,0.30725892758163975,0.024108465166202582,0.2902116683786183,0.3243061867846613,True
+rd,"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",log_r_ewma5,2,-0.2094914707492876,0.02740942166986792,-0.2288728586804527,-0.1901100828181225,True
+re,"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",log_r,1,-2.73157996028e-05,,-2.73157996028e-05,-2.73157996028e-05,True
+re,"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",log_r_ewma21,1,-0.0153782609051934,,-0.0153782609051934,-0.0153782609051934,True
+re,"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",log_r_ewma5,1,0.0087182909033887,,0.0087182909033887,0.0087182909033887,True
+re,"ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",log_r_ewma10,2,-0.0006722222492048,0.0001452090992917682,-0.000774900588004,-0.0005695439104056,True
+re,"ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",log_r_ewma21,2,-0.006757921111335351,0.0022432144152667714,-0.0083441132360259,-0.0051717289866448,True
+re,"ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",log_r_ewma42,2,-0.00280108179557945,0.0008026309275724809,-0.003368627567256,-0.0022335360239029,True
+re,"ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",log_r_ewma5,2,0.00328675587786315,0.0015530068880335631,0.0021886141761052,0.0043848975796211,True
+re,"ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",log_r_ewma63,2,0.00127188224031315,0.000811158927456008,0.000698306262089,0.0018454582185373,True

@@ -1,0 +1,43 @@
+{
+  "output_dir": "/home/jli/projects/bk/sig_vol/sig_vol/artifacts/eval_rv_post_shift_sweep/run_20260522_232728",
+  "figures_dir": "/home/jli/projects/bk/sig_vol/sig_vol/artifacts/eval_rv_post_shift_sweep/run_20260522_232728/figures",
+  "start_days": [
+    92,
+    151,
+    156
+  ],
+  "skipped_start_days": [
+    {
+      "start_day": 215,
+      "reason": "insufficient pre-test rows",
+      "n_pre_test_rows": 59,
+      "min_train": 63
+    },
+    {
+      "start_day": 277,
+      "reason": "insufficient pre-test rows",
+      "n_pre_test_rows": 17,
+      "min_train": 63
+    }
+  ],
+  "step_trading_days": 42,
+  "post_shift_cv": {
+    "n_splits": 1,
+    "purge": 21,
+    "min_train": 63,
+    "train_span": null
+  },
+  "post_shift_test_start_day": 300,
+  "stocks": [
+    "ra",
+    "rb",
+    "rc",
+    "rd",
+    "re",
+    "rf"
+  ],
+  "n_score_rows": 378,
+  "n_param_rows": 360,
+  "n_coefficient_rows": 576,
+  "n_errors": 0
+}

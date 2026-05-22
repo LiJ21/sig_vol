@@ -1,0 +1,19 @@
+sweep_start_day,stock,model,features,family,val_qlike,test_qlike,test_rmse,best
+92,ra,ra_ewma63,ra_ewma63,r_ewma63,0.8,0.048,23.998,-
+92,rb,rb_ewma21,rb_ewma21,r_ewma21,1.342,0.008,30.121,-
+92,rc,rc_ewma63,rc_ewma63,r_ewma63,1.421,0.015,20.606,-
+92,rd,log HAR (Ridge scaled),"log_rd, log_rd_avg5, log_rd_avg21","log HAR (Ridge scaled): log_r, log_r_avg5, log_r_avg21",0.966,0.138,96.153,alpha=100
+92,re,re_ewma63,re_ewma63,r_ewma63,0.004,0.0,3.207,-
+92,rf,wlog HAR (Ridge scaled),"log_rf_avg5, log_rf_avg10, log_rf_avg21, log_rf_avg42, log_rf_avg63","wlog HAR (Ridge scaled): log_r_avg5, log_r_avg10, log_r_avg21, log_r_avg42, log_r_avg63",3.267,0.008,14.09,alpha=100
+151,ra,ra_ewma63,ra_ewma63,r_ewma63,0.375,0.048,23.998,-
+151,rb,rb_ewma21,rb_ewma21,r_ewma21,0.05,0.008,30.121,-
+151,rc,rc_ewma63,rc_ewma63,r_ewma63,0.307,0.015,20.606,-
+151,rd,rd_avg63,rd_avg63,r_avg63,0.138,0.144,108.088,-
+151,re,re_ewma63,re_ewma63,r_ewma63,0.001,0.0,3.207,-
+151,rf,rf_ewma21,rf_ewma21,r_ewma21,0.217,0.01,15.792,-
+156,ra,ra_ewma63,ra_ewma63,r_ewma63,0.378,0.048,23.998,-
+156,rb,rb_ewma21,rb_ewma21,r_ewma21,0.051,0.008,30.121,-
+156,rc,rc_ewma63,rc_ewma63,r_ewma63,0.272,0.015,20.606,-
+156,rd,rd_avg63,rd_avg63,r_avg63,0.104,0.144,108.088,-
+156,re,re_ewma63,re_ewma63,r_ewma63,0.001,0.0,3.207,-
+156,rf,rf_ewma21,rf_ewma21,r_ewma21,0.231,0.01,15.792,-

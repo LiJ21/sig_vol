@@ -1,0 +1,8 @@
+family,ra,rb,rc,rd,re,rf,total
+r_ewma10,0,2,2,0,0,0,4
+r_avg42,2,0,0,0,0,2,4
+"ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",0,0,0,2,1,0,3
+r_avg21,1,0,0,1,0,0,2
+"ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",0,0,0,0,2,0,2
+r_avg10,0,1,1,0,0,0,2
+GARCH (pass): r_garch_fwd,0,0,0,0,0,1,1

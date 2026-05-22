@@ -1,0 +1,6 @@
+family,ra,rb,rc,rd,re,rf,total
+r_ewma63,3,0,3,0,3,0,9
+r_ewma21,0,3,0,0,0,2,5
+r_avg63,0,0,0,2,0,0,2
+"log HAR (Ridge scaled): log_r, log_r_avg5, log_r_avg21",0,0,0,1,0,0,1
+"wlog HAR (Ridge scaled): log_r_avg5, log_r_avg10, log_r_avg21, log_r_avg42, log_r_avg63",0,0,0,0,0,1,1

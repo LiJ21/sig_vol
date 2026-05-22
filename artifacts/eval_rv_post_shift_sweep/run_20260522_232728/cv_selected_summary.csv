@@ -1,0 +1,19 @@
+sweep_start_day,stock,model,features,family,val_qlike,test_qlike,test_rmse,best
+92,ra,ra_avg21,ra_avg21,r_avg21,0.277,0.115,44.593,-
+92,rb,rb_avg10,rb_avg10,r_avg10,0.84,0.073,82.202,-
+92,rc,rc_avg10,rc_avg10,r_avg10,0.269,0.077,58.819,-
+92,rd,rd_avg21,rd_avg21,r_avg21,0.107,0.25,130.346,-
+92,re,ewma log HAR (Ridge scaled),"log_re, log_re_ewma5, log_re_ewma21","ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",0.001,0.002,5.779,alpha=50
+92,rf,GARCH (pass),rf_garch_fwd,GARCH (pass): r_garch_fwd,0.337,0.043,39.15,-
+151,ra,ra_avg42,ra_avg42,r_avg42,0.051,0.249,69.338,-
+151,rb,rb_ewma10,rb_ewma10,r_ewma10,0.022,0.018,44.213,-
+151,rc,rc_ewma10,rc_ewma10,r_ewma10,0.01,0.061,48.816,-
+151,rd,ewma log HAR (Ridge scaled),"log_rd, log_rd_ewma5, log_rd_ewma21","ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",0.075,0.442,253.096,alpha=1
+151,re,ewma wlog HAR (Ridge scaled),"log_re_ewma5, log_re_ewma10, log_re_ewma21, log_re_ewma42, log_re_ewma63","ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",0.001,0.001,4.633,alpha=100
+151,rf,rf_avg42,rf_avg42,r_avg42,0.022,0.074,51.82,-
+156,ra,ra_avg42,ra_avg42,r_avg42,0.055,0.249,69.338,-
+156,rb,rb_ewma10,rb_ewma10,r_ewma10,0.023,0.018,44.213,-
+156,rc,rc_ewma10,rc_ewma10,r_ewma10,0.01,0.061,48.816,-
+156,rd,ewma log HAR (Ridge scaled),"log_rd, log_rd_ewma5, log_rd_ewma21","ewma log HAR (Ridge scaled): log_r, log_r_ewma5, log_r_ewma21",0.072,0.526,292.449,alpha=0.01
+156,re,ewma wlog HAR (Ridge scaled),"log_re_ewma5, log_re_ewma10, log_re_ewma21, log_re_ewma42, log_re_ewma63","ewma wlog HAR (Ridge scaled): log_r_ewma5, log_r_ewma10, log_r_ewma21, log_r_ewma42, log_r_ewma63",0.0,0.001,4.787,alpha=50
+156,rf,rf_avg42,rf_avg42,r_avg42,0.018,0.074,51.82,-
